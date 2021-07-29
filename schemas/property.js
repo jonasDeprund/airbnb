@@ -35,12 +35,12 @@ export default {
         hotspot: true,
       },
     },
-    // {
-    //   name: 'images',
-    //   title: 'Images',
-    //   type: 'array',
-    //   of: [{ type: 'propertyImage' }],
-    // },
+    {
+      name: 'images',
+      title: 'Images',
+      type: 'array',
+      of: [{ type: 'propertyImage' }],
+    },
     {
       name: 'pricePerNight',
       title: 'Price Per Night',
